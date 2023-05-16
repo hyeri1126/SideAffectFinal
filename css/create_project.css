@@ -1,0 +1,19 @@
+.create-project{
+    position: relative;
+}
+
+.create-project .text{
+    background-color: blue;
+    height: 120px;
+    color:black;
+}
+.create-project form{
+    width: 1100px;
+    height: 1000px;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 200px;
+}

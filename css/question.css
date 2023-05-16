@@ -1,0 +1,100 @@
+.question {
+  position: relative;
+  width: 1120px;
+  height: 1300px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.question .text{
+    position: absolute;
+    top: 180px;
+    left: 5px;
+}
+.question h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #272727;
+   
+}
+.question p{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  
+    color: #272727;
+    font-weight: 900;
+}
+.question form {
+  width: 1120px;
+  border: 1px solid #27272734;
+  border-radius: 20px;
+  padding: 50px;
+  position: absolute;
+  top: 270px;
+}
+.question form label{
+    font-size: 14px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.question form .list{
+    margin-bottom: 20px;
+}
+
+
+.question form button {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+.footer {
+    border-top: 1px solid #ccc;
+    position: relative;
+    background-color: #272727;
+}
+.footer .inner {
+    padding: 40px 0 60px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 200px;
+}
+.footer h1 {
+    font-weight: 800;
+    font-size: 23px;
+    font-family: 'Gugi';
+    margin-bottom: 5px;
+}
+.footer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #656565;
+    font-weight: 700;
+}
+.footer .menu {
+    display: flex;
+    margin-bottom: 18px;
+    
+}
+.footer .menu li a{
+    margin-right: 15px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+
+.footer .name li:first-child {
+    margin-bottom: 5px;
+}
+.footer .name li {
+    color: #656565;
+    font-size:14px;
+    font-weight: 700;
+}

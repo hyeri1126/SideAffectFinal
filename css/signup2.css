@@ -1,0 +1,118 @@
+.sign-up {
+    top: 90px;
+    position: relative;
+    height: 850px;
+    /* background-image: url("../background.jpg"); */
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+.sign-up .text{
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    left: 290px;
+    font-family: 'Gugi', cursive;
+}
+.sign-up .text .img1 {
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.sign-up .text h2 {
+    left: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    color: wheat;
+}
+.sign-up .text p {
+    position: absolute;
+    top: 70px;
+}
+
+
+.sign-up form{
+    border: 1px solid #00000016;
+    width: 1000px;
+    height: 620px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+    top: 180px;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.sign-up form input{
+    margin-bottom: 15px;
+}
+
+.sign-up form .option{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sign-up form .btn.submit{
+    background-color: rgba(214, 182, 118, 0.819);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 180px;
+}
+
+.footer{
+    top: 90px;
+    position: relative;
+    background-color: hsl(50, 25%, 95%, .5);
+    height: 200px;
+}
+.footer .inner{
+    top: 20px;
+
+}
+.footer h1{
+    font-weight: 800;
+    font-size: 23px;
+    font-family: 'Gugi';
+    margin-bottom: 5px;
+    position: absolute;
+    left: 20px;
+}
+.footer p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #656565;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.footer .menu {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: -10px;
+}
+.footer .menu li a{
+    margin-right: 15px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+.footer .name{
+    position: absolute;
+    top: 100px;
+    left: -10px;
+}
+.footer .name li{
+    color: #656565;
+    font-size:14px;
+    font-weight: 700;
+}

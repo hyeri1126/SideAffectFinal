@@ -1,0 +1,212 @@
+.sign-up {
+    top: 90px;
+    position: relative;
+    height: 1500px;
+    background-image: url("../background.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+.sign-up .text{
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-family: 'Gugi', cursive;
+}
+.sign-up .text .img1 {
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.sign-up .text h2 {
+    left: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    color: wheat;
+}
+.sign-up .text p {
+    position: absolute;
+    top: 70px;
+}
+
+
+
+/* form */
+.sign-up form {
+    width: 1000px;
+    position: absolute;
+    height: 600px;
+    top: 170px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 1px solid #000;
+ 
+}
+
+.sign-up form label {
+    font-size: 14px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+.sign-up form input {
+    width: 80%;
+    height: 30px;
+    margin-bottom:15px;
+}
+
+.sign-up form .job{
+    display: flex;
+}
+.sign-up form .list{
+    margin-bottom:30px;
+}
+.sign-up form .btn{
+    height: 35px;
+    padding: 5px;
+    width: 262px;
+    position: absolute;
+    top:370px;
+    left: 5px;
+    border-radius: 6px;
+
+}
+.footer{
+    top: 90px;
+    position: relative;
+    background-color: #f6f5f0;
+    height: 200px;
+    border-top: 1px solid #656565;
+}
+.footer .inner{
+    top: 20px;
+
+}
+.footer h1{
+    font-weight: 800;
+    font-size: 23px;
+    font-family: 'Gugi';
+    margin-bottom: 5px;
+    position: absolute;
+    left: 20px;
+}
+.footer p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #656565;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.footer .menu {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: -10px;
+}
+.footer .menu li a{
+    margin-right: 15px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+.footer .name{
+    position: absolute;
+    top: 100px;
+    left: -10px;
+}
+.footer .name li{
+    color: #656565;
+    font-size:14px;
+    font-weight: 700;
+}
+/* .footer {
+    position: relative;
+}
+.footer .inner {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 150px;
+}
+.footer h1 {
+    font-weight: 800;
+    font-size: 23px;
+    font-family: 'Gugi';
+    margin-bottom: 5px;
+}
+.footer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #656565;
+    font-weight: 700;
+}
+.footer .menu {
+    display: flex;
+    margin-bottom: 18px;
+    
+}
+.footer .menu li a{
+    margin-right: 15px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+
+.footer .name li:first-child {
+    margin-bottom: 5px;
+}
+.footer .name li {
+    color: #656565;
+    font-size:14px;
+    font-weight: 700;
+}.footer {
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.footer .inner {
+    padding: 40px 0 60px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 150px;
+}
+.footer h1 {
+    font-weight: 800;
+    font-size: 23px;
+    font-family: 'Gugi';
+    margin-bottom: 5px;
+}
+.footer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #656565;
+    font-weight: 700;
+}
+.footer .menu {
+    display: flex;
+    margin-bottom: 18px;
+    
+}
+.footer .menu li a{
+    margin-right: 15px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 900;
+    text-decoration-line: none;
+}
+
+.footer .name li:first-child {
+    margin-bottom: 5px;
+}
+.footer .name li {
+    color: #656565;
+    font-size:14px;
+    font-weight: 700;
+} */
